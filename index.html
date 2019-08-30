@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form name="login"
+            action="http://10.129.250.125:8080/arsys/forms/10.129.250.12/SHR%3ALandingConsole/Default+Administrator+View/?cacheid=b2b59eb6" 
+            method="POST">
+
+            <label>Nome do Usuário</label></br>
+                <input type="text" 
+                    maxlength="10"
+                    placeholder="Digite"
+                    name="user"
+                    required/></br>
+
+                <label>Senha:</label></br>
+                <input type="password" 
+                    maxlength="10"
+                    name="senha"
+                    required/></br>
+                <select name="Estado">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="Bh">Bahia</option>
+                <select></br>
+
+                <input type="checkbox" 
+                    value="SP"> São Paulo
+                <input type="checkbox" 
+                    value="RJ"> Rio de Janeiro
+                <input type="checkbox" 
+                    value="BH"> Bahia
+                </br>
+
+                <input type="radio"
+                    value="LP"> Linguagem de Programação
+                <input type="radio" 
+                    value="CS"> Csharp  
+                </br>
+                
+
+                <input type="submit"
+                    value="OK"/>
+                <input type="reset" value="limpar"/>
+                
+                
+        </form>
+    </body>
+
+
+</html>
